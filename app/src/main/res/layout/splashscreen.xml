@@ -1,20 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!-- Background Image -->
     <ImageView
         android:id="@+id/imageView"
         android:src="@drawable/loading"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="fitXY" />
+        android:scaleType="centerCrop"
+        android:alpha="0.8" /> <!-- Set opacity -->
 
+    <!-- Overlay background (optional gradient) -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000" /> <!-- Semi-transparent black overlay -->
+
+    <!-- App Logo (centered) -->
+    <ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/ic_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true" />
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Do List"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Progress Bar -->
     <ProgressBar
         android:id="@+id/progressBar1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="58dp" />
+        android:layout_marginBottom="40dp" />
+
 </RelativeLayout>

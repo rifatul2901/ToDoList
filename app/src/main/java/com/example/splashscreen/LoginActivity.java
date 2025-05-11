@@ -21,7 +21,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         // Inisialisasi komponen
-        editEmail = findViewById(R.id.editEmail);
+        editEmail = findViewById(R.id.editUsername);
         editPassword = findViewById(R.id.editPassword);
         btnLogin = findViewById(R.id.btnLogin);
         textRegister = findViewById(R.id.textRegister);

@@ -22,21 +22,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<!--            Welcome Activity-->
+        <activity
+            android:name=".WelcomeActivity" />
+
 
         <!-- Login Activity -->
         <activity
             android:name=".LoginActivity"
             android:label="Login"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 
         <!-- Main Activity -->
         <activity
             android:name=".MainActivity"
             android:label="Main"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 
         <!-- Register Activity-->
-        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 
     </application>
 

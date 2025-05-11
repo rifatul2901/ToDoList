@@ -24,7 +24,7 @@ public class Splashscreen extends AppCompatActivity {
 
         // Handler untuk delay sebelum pindah ke halaman lain
         new Handler().postDelayed(() -> {
-            Intent i = new Intent(Splashscreen.this, LoginActivity.class); // Ganti ke LoginActivity jika perlu
+            Intent i = new Intent(Splashscreen.this, WelcomeActivity.class); // Ganti ke LoginActivity jika perlu
             startActivity(i);
             finish(); // Menutup Splashscreen agar tidak bisa kembali ke sini
         }, splashInterval);
