@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
+import com.bumptech.glide.Glide;
+import android.widget.ImageView;
 
 public class Splashscreen extends AppCompatActivity {
     // Durasi splash screen (dalam milidetik)
@@ -21,6 +23,10 @@ public class Splashscreen extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.splashscreen);
+
+        ImageView logoImage = findViewById(R.id.logo);
+        Glide.with(this).load(R.drawable.ic_logo).into(logoImage);
+
 
         // Handler untuk delay sebelum pindah ke halaman lain
         new Handler().postDelayed(() -> {
