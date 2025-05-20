@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="8dp"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="12dp"
+    android:backgroundTint="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Judul Tugas -->
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Judul Tugas"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#212121" />
+
+        <!-- Deadline -->
+        <TextView
+            android:id="@+id/textDeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deadline: 2025-05-20"
+            android:textColor="#FF5722"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Deskripsi Tugas -->
+        <TextView
+            android:id="@+id/txtTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi lengkap tugas akan ditampilkan di sini."
+            android:textSize="15sp"
+            android:textColor="#424242"
+            android:background="?android:selectableItemBackground"
+            android:padding="8dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
