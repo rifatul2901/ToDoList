@@ -17,17 +17,18 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:background="#DBE2EF"
-        android:layout_marginTop=""
-        android:paddingBottom="8dp" />
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp" />
 
     <Button
         android:id="@+id/btnAddTask"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="➕ Tambah Tugas"
-        android:backgroundTint="#112D4E"
+        android:background="@drawable/btn_tambah_tugas"
         android:textColor="#FFFFFF"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="5dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerTasks"

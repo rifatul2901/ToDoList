@@ -18,6 +18,7 @@
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#212121"
+            android:gravity="center"
             android:layout_marginBottom="16dp"/>
 
         <EditText

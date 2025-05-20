@@ -12,12 +12,15 @@
         android:alpha="0.8" /> <!-- Set opacity -->
 
     <!-- Overlay background (optional gradient) -->
+    <!-- Semi-transparent black overlay -->
+
+    <!-- App Logo (centered) -->
+
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#80000000" /> <!-- Semi-transparent black overlay -->
+        android:background="#80000000" />
 
-    <!-- App Logo (centered) -->
     <ImageView
         android:id="@+id/logo"
         android:src="@drawable/ic_logo"
