@@ -37,6 +37,7 @@
         android:text="To Do List"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
+        android:fontFamily="@font/poppinsbold"
         android:textStyle="bold"
         android:layout_below="@id/logo"
         android:layout_centerHorizontal="true"

@@ -15,6 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Tambah Tugas"
+            android:fontFamily="@font/poppinsmedium"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#212121"
@@ -26,6 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Judul Tugas"
+            android:fontFamily="@font/poppinsregular"
             android:inputType="textCapSentences"
             android:background="@drawable/edit_text_bg"
             android:padding="12dp"
@@ -36,6 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Deskripsi"
+            android:fontFamily="@font/poppinsregular"
             android:inputType="textMultiLine"
             android:minLines="3"
             android:background="@drawable/edit_text_bg"
@@ -47,6 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="📅 Pilih Tanggal Deadline"
+            android:fontFamily="@font/poppinsmedium"
             android:backgroundTint="#03A9F4"
             android:textColor="#FFFFFF" />
     </LinearLayout>

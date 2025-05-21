@@ -21,6 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Judul Tugas"
+            android:fontFamily="@font/poppinsmedium"
             android:textStyle="bold"
             android:textSize="18sp"
             android:textColor="#212121" />
@@ -31,6 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Deadline: 2025-05-20"
+            android:fontFamily="@font/poppinsregular"
             android:textColor="#FF5722"
             android:textSize="14sp"
             android:layout_marginTop="4dp"
@@ -43,6 +45,7 @@
             android:layout_height="wrap_content"
             android:text="Deskripsi lengkap tugas akan ditampilkan di sini."
             android:textSize="15sp"
+            android:fontFamily="@font/poppinsregular"
             android:textColor="#424242"
             android:background="?android:selectableItemBackground"
             android:padding="8dp" />
