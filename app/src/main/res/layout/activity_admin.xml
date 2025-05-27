@@ -23,16 +23,36 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="7dp" />
 
-    <Button
-        android:id="@+id/btnAddTask"
+    <!-- Container for buttons -->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="➕ Tambah Tugas"
-        android:fontFamily="@font/poppinsmedium"
-        android:background="@drawable/btn_tambah_tugas"
-        android:textColor="#FFFFFF"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="5dp"/>
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/btnAddTask"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="➕ Tambah Tugas"
+            android:fontFamily="@font/poppinsmedium"
+            android:background="@drawable/btn_tambah_tugas"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🔄 Refresh"
+            android:fontFamily="@font/poppinsmedium"
+            android:background="@drawable/btn_refresh"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerTasks"
